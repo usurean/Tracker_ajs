@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>UX training</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+    h3 {
+      color: aliceblue;
+      font-size: 155px;
+      justify-content: center;
+    }
+    .container > div {
+      color: aliceblue;
+    }
+    p {
+      color: aliceblue;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+}
+
+ .navbar-brand{
+  color: aliceblue;
+  font-size: 18px;
+ }
+
+ .navbar-nav{
+  color: aliceblue;
+  font-size: 18px;
+ }
+
+</style>
+</head>
+<body class="bg-dark">
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="Homepage.html">Dashboard</a>
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="CourseSchedule.html">Course Schedule</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="todolist html page.html">To-do List</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="tracker.html">Tracker</a>
+    </li>
+
+  </ul>
+</nav>
+<br>
+  
+<div class="container "  >
+    <h3>UX Developer</h3>
+    <div class="row">
+        <div class="col-12">
+            UX Developers understand big picture; they design the organizational structure behind a website and make certain interactive components of a site can be achieved. They must be skilled programmers as well as creative and on top of the latest industry and cultural trends. If you’re an out of the box thinker, this job is for you.
+
+            The UX Developer job requires candidates who have strong interpersonal and communication skills. They must be team players able to actively listen, take verbal instruction and extrapolate it to create concrete web content. UX Developer skills include being adept at brainstorming but also great researchers. Patience is always required during the beta testing process of any website, and flexibility is a must.
+            
+            The UX Developer designs to the user experience, marking them as one of the most important experts that can affect whether your website will go viral – or languish in Internet limbo..
+        </div>
+      </div>   
+
+</div>
+
+<p> Countdown to complete this training</p>
+<p id="demo"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Aug 26, 2019 23:59:59").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+</div>
+</body>
+</html>

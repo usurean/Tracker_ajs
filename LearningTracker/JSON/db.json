@@ -1,0 +1,85 @@
+{
+  "associates": [
+    {
+      "id": "1",
+      "name": "Surean",
+      "courses": [
+        {
+          "cid": "c1",
+          "courseName": "English",
+          "startDate": "07/01/2019",
+          "endDate": "07/20/2019",
+          "duration": "2"
+        },
+        {
+          "cid": "c2",
+          "courseName": "CSS",
+          "startDate": "07/01/2019",
+          "endDate": "07/20/2019",
+          "duration": "21"
+        },
+        {
+          "cid": "c3",
+          "courseName": "Javascript",
+          "startDate": "07/01/2019",
+          "endDate": "07/20/2019",
+          "duration": "21"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Thanu",
+      "courses": [
+        {
+          "cid": "c1",
+          "courseName": "JSS",
+          "startDate": "07/01/2019",
+          "endDate": "07/20/2019",
+          "duration": "21"
+        },
+        {
+          "cid": "c2",
+          "courseName": "Angular",
+          "startDate": "07/01/2019",
+          "endDate": "07/20/2019",
+          "duration": "21"
+        },
+        {
+          "cid": "c3",
+          "courseName": "Javascript",
+          "startDate": "07/01/2019",
+          "endDate": "07/20/2019",
+          "duration": "21"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Praveen",
+      "courses": [
+        {
+          "cid": "c1",
+          "courseName": "Bootstrap",
+          "startDate": "07/01/2019",
+          "endDate": "07/20/2019",
+          "duration": "21"
+        },
+        {
+          "cid": "c2",
+          "courseName": "Typescript",
+          "startDate": "07/01/2019",
+          "endDate": "07/20/2019",
+          "duration": "21"
+        },
+        {
+          "cid": "c3",
+          "courseName": "GitHub",
+          "startDate": "07/01/2019",
+          "endDate": "07/20/2019",
+          "duration": "21"
+        }
+      ]
+    }
+  ]
+}

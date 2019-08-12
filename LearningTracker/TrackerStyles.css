@@ -1,0 +1,28 @@
+h3 {
+    color: aliceblue;
+    font-size: 155px;
+    justify-content: center;
+}
+
+.container>div {
+    color: aliceblue;
+}
+.container>li>span {
+    color: black;
+}
+p {
+    color: aliceblue;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+}
+
+.navbar-brand {
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.navbar-nav {
+    color: aliceblue;
+    font-size: 18px;
+}

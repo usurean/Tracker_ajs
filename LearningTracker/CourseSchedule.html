@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>UX training</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+
+
+
+.bg-box {
+  position: relative;
+  background-color: skyblue;
+  height : 200px;
+  width : 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  background-size: cover;
+  background-position: center;
+  background-position: no-repeat;
+
+}
+
+.img-darken {
+  transition: 1s;
+  filter: brightness(10%);
+}
+
+.navbar-brand{
+  color: aliceblue;
+  font-size: 18px;
+ }
+
+ .navbar-nav{
+  color: aliceblue;
+  font-size: 18px;
+ }
+
+     </style> 
+</head>
+<body class="bg-dark">
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <!-- Brand -->
+      <a class="navbar-brand" href="Homepage.html">Dashboard</a>
+
+      <!-- Links --> 
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="CourseSchedule.html">Course Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="todolist html page.html">To-do List</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tracker.html">Tracker</a>
+      </li>
+
+    
+      </ul>
+    
+    </nav>
+<br>
+
+<div class="container-fluid">
+  <div class="row ">
+    <div class="col-sm-2">
+	<div class="bg-box" style="background-image:url(images/html.jpg)"></div>
+    </div>
+    <div class="col-sm-2">
+	<div class="bg-box" style="background-image:url(images/css.jpg)">
+          <a href="https://www.pluralsight.com/courses/bootstrap-introduction" target="_blank">Click here</a>
+       </div>
+    </div>
+    <div class="col-sm-2">
+	<div class="bg-box" style="background-image:url(images/boot.png)">
+          <a href="https://www.pluralsight.com/courses/bootstrap-introduction" target="_blank">Click here</a>
+	</div>
+    </div>
+    <div class="col-sm-2">
+	<div class="bg-box" style="background-image:url(images/JS.jpg)">
+	  <a href="https://www.pluralsight.com/courses/804837c6-ac3c-4698-aebd-bc15f629e64e">Click here</a>
+	</div>
+    </div>
+    <div class="col-sm-2">
+	<div class="bg-box" style="background-image:url(images/ajs.png)"></div>
+    </div>
+    <div class="col-sm-2">
+	<div class="bg-box" style="background-image:url(images/ts.png)"></div>
+    </div>
+  </div>
+  <div class="row ">
+    <div class="col-sm-2">
+	<div class="bg-box" style="background-image:url(images/a6.jpg)"></div>
+     </div>
+    <div class="col-sm-2 ">
+	<div class="bg-box" style="background-image:url(images/git.jpg)"></div>
+    </div>
+    <div class="col-sm-2 ">
+	<div class="bg-box" style="background-image:url(images/jenkin.png)"></div>
+  </div>
+</div>
+
+</body>
+<script>
+	const boxes = document.querySelectorAll('.bg-box');
+	boxes.forEach(box => {
+		box.addEventListener('mouseover',() => {
+			box.classList.add('img-darken');
+		})
+		box.addEventListener('mouseout',() => {
+			box.classList.remove('img-darken');
+		})
+
+	})
+</script>
+
+</html>
